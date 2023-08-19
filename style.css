@@ -22,9 +22,11 @@ main {
     display: grid;
     /* border: 2px solid tomato; */
     grid-template-columns: repeat(2, 1fr);
-    margin-top: 265px;
+    /* align-items: center;
+    justify-content: center; */
     margin-left: 77px;
     margin-right: 119px;
+    margin-top: 28px;
 }
 
 .container-img img {
@@ -39,26 +41,23 @@ main {
     font-size: 14px;
     font-weight: 700;
     letter-spacing: -0.49px;
-    margin-top: 64px;
     border: none;
-    margin-bottom: 349px;
+    margin-top: 16px;
 }
 
 .container-title {
     width: 586px;
     color: #333;
-    font-size: 64px;
+    font-size: 60px;
     font-weight: 700;
     letter-spacing: -2.24px;
 }
 
 .container-description {
-    width: 381px;
     color: #4F4F4F;
     font-size: 24px;
     font-weight: 400;
     letter-spacing: -0.84px;
-    margin-top: 36px;
 }
 
 .container-info {
